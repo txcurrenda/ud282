@@ -2,60 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f69d6d76-f96f-41a5-aa09-30574c2eae89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileContent/annotation-processors.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileContent/fileContent.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/udacity/Game.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/udacity/GameUI$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/udacity/GameUI$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/udacity/GameUI$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/udacity/GameUI.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/udacity/Result.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/com/udacity/GameTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/distributions/Project 1 - TicTacToe.tar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/distributions/Project 1 - TicTacToe.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/Project 1 - TicTacToe.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.udacity.GameTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.udacity.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/grid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/o.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/scripts/Project 1 - TicTacToe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/scripts/Project 1 - TicTacToe.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.udacity.GameTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/udacity/Game.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/udacity/GameUI$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/udacity/GameUI$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/udacity/GameUI$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/udacity/GameUI.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/udacity/Result$O.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/udacity/Result.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/resources/grid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/resources/o.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/resources/x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/com/udacity/GameTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/udacity/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/udacity/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/udacity/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/udacity/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/udacity/Result.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -134,8 +81,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/udacity/Result.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+            <state relative-caret-position="221">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+              <folding>
+                <element signature="e#125#126#0" expanded="true" />
+                <element signature="e#157#158#0" expanded="true" />
+                <element signature="e#2707#2708#0" expanded="true" />
+                <element signature="e#2746#2747#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -235,6 +188,11 @@
             <path>
               <item name="Project 1 - TicTacToe" type="b2602c69:ProjectViewProjectNode" />
               <item name="Project 1 - TicTacToe" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project 1 - TicTacToe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project 1 - TicTacToe" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -373,7 +331,7 @@
       <updated>1563279943959</updated>
       <workItem from="1563279947387" duration="166000" />
       <workItem from="1563280131827" duration="7881000" />
-      <workItem from="1563344261475" duration="1479000" />
+      <workItem from="1563344261475" duration="3454000" />
     </task>
     <servers />
   </component>
@@ -410,12 +368,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9526000" />
+    <option name="totallyTimeSpent" value="11501000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -424,7 +383,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32286024" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32286024" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -436,7 +395,7 @@
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" />
-      <window_info anchor="bottom" id="SonarLint" order="14" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="SonarLint" order="14" visible="true" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -505,8 +464,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/udacity/Result.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+        <state relative-caret-position="221">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#2707#2708#0" expanded="true" />
+            <element signature="e#2746#2747#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

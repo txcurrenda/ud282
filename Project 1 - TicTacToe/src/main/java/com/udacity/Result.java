@@ -1,7 +1,5 @@
 package com.udacity;
 
-import java.util.List;
-
 class Result {
 
     private char[][] grid;
@@ -15,31 +13,20 @@ class Result {
         String result;
 
         result = checkRows();
-        if (!result.isEmpty())
-            return result;
+        if (!result.isEmpty()) return result;
 
         result = checkCollumns();
-        if (!result.isEmpty())
-            return result;
+        if (!result.isEmpty()) return result;
 
         result = checkLeftDiagonal();
-        if (!result.isEmpty())
-            return result;
+        if (!result.isEmpty()) return result;
 
         result = checkRightDiagonal();
-        if (!result.isEmpty())
-            return result;
+        if (!result.isEmpty()) return result;
 
         result = checkNone();
-        if (!result.isEmpty())
-            return result;
+        return !result.isEmpty() ? result : "Tie";
 
-        return "Tie";
-    }
-
-    public interface O
-    {
-        String xxx();
     }
 
     private String checkRows() {
@@ -47,7 +34,7 @@ class Result {
             char ch = grid[row][0];
             boolean won = true;
             for (int col = 0; col <= 2; col++) {
-                if (ch != grid[row][col] || ch == '-') {
+                if (ch != grid[row][col] || isEmptyField(ch)) {
                     won = false;
                     break;
                 }
@@ -65,7 +52,7 @@ class Result {
             char ch = grid[0][col];
             boolean won = true;
             for (int row = 0; row <= 2; row++) {
-                if (ch != grid[row][col] || ch == '-') {
+                if (ch != grid[row][col] || isEmptyField(ch)) {
                     won = false;
                     break;
                 }
@@ -80,7 +67,7 @@ class Result {
         boolean won = true;
         char ch = grid[0][0];
         for (int row = 0, col = 0; row <= 2; row++, col++) {
-            if (ch != grid[row][col] || ch == '-') {
+            if (ch != grid[row][col] || isEmptyField(ch)) {
                 won = false;
                 break;
             }
@@ -92,7 +79,7 @@ class Result {
         char ch = grid[0][2];
         boolean won = true;
         for (int row = 0, col = 2; row <= 2; row++, col--) {
-            if (ch != grid[row][col] || ch == '-') {
+            if (ch != grid[row][col] || isEmptyField(ch)) {
                 won = false;
                 break;
             }
@@ -103,16 +90,20 @@ class Result {
     private String checkNone() {
         boolean tie = true;
         for (int row = 0; row <= 2; row++) {
-            if (!tie)
-                break;
+            if (!tie) break;
 
             for (int col = 0; col <= 2; col++) {
-                if ('-' == grid[row][col]) {
+                if (isEmptyField(grid[row][col])) {
                     tie = false;
                     break;
                 }
             }
         }
-        return !tie ? "None" : "";
+        return tie ? "" : "None";
+    }
+
+    private boolean isEmptyField(char ch)
+    {
+        return ch == '-';
     }
 }
